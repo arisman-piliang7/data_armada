@@ -328,7 +328,7 @@ if st.session_state.step == "login":
 
     q = st.text_input(
         "Masukkan Nomor Soldtoparty:",
-        placeholder="Contoh: 73001234  atau  PT DELI JAYA",
+        placeholder="Jangan salah nomor",
         key="login_q",
     )
 
